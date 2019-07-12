@@ -142,3 +142,75 @@ h3 {
     background: #fff;
     color: #00A4FC;
 }
+
+@media (max-width: 768px) {
+	img { 
+		max-width: 100%;
+	}
+	
+	body {
+		width: 90%;
+		margin: auto;
+	}
+	
+	.header {
+		padding: 100px 20px 50px;
+	}
+	
+	h1.site-title {
+		font-size: 3rem;
+	}
+	
+	.heading {
+		padding-bottom: 7px;
+		font-size: 3rem;
+	}
+
+	.heading::before {
+		bottom: 4px;
+	}
+	
+	.about-text {
+		margin: 20px 0;
+		line-height: 2;
+	}
+	.about-icon {
+		margin-bottom: 10px;
+	}
+	.about-others {
+		margin-bottom: 0;
+	}
+	.about-box {
+	        display: block;
+		margin: 20px auto;
+	}
+	
+	.dl-wrapper,.dl-box {
+		display: block;
+	}
+	
+	.dl-icon {
+		margin-bottom: 10px;
+	}
+	
+	.dl-pc,.dl-phone {
+		margin-bottom: 0;
+	}
+	.dl-box {
+		margin: 20px auto;
+	}
+	
+	.dl-text {
+		margin: 0;
+	}
+	
+	p {
+		font-size: 1.2rem;
+	}
+	
+	.phone-br::before {
+		content: "\A" ;
+		white-space: pre ;
+	}
+
+}
